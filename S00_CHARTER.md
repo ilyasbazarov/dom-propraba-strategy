@@ -1,4 +1,3 @@
-cat > S00_CHARTER.md << 'CHARTER_EOF'
 # S00_CHARTER · Хартия проекта «Стратегия и плейбуки Dom Prorab»
 
 **Стабильность:** STABLE — изменения только через ADR (S06) с пройденной T-RED.
@@ -89,5 +88,3 @@ dompro.kg (1P), программа Каталог 2.0.
 | LIVING | Правится рабочими сессиями через session-блоки (S02, S04, S07, S10; S06 — append-only) |
 
 Карта документов — в README-секции S07_STATE до появления отдельного индекса.
-CHARTER_EOF
-git add S00_CHARTER.md && git commit -m "S00: хартия v1.0 (fix: полный контент, обрезка heredoc)" && git push
